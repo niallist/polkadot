@@ -1,0 +1,22 @@
+{
+  "name": "polkadot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node ./create_account.js",
+    "connect": "node ./connect.json",
+    "transfer": "node ./transfer.json",
+    "query": "node ./query.json",
+    "staking": "node ./staking_proxy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^4.7.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  }
+}
